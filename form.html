@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Global Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html" aria-current="page">Form</a></li>
+        </ul>
+      </nav>
+
+      <h1>
+        <strong>Alt___<br />School</strong>
+      </h1>
+    </header>
+
+    <main>
+      <h1 aria-label="Sign in or Sign Up">
+        <a href="sign-up">Sign Up</a>
+        <a href="sign in">Sign In</a>
+      </h1>
+
+      <p>Create an account to get started on your learning journey.</p>
+      <p>
+        <strong>⚠️ Important:</strong> Your name will appear on your certificate
+        exactly as entered.
+      </p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <p>
+            <label for="email">Email *</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="johndoe@example.com"
+              autocomplete="email"
+            />
+          </p>
+
+          <p>
+            <label for="firstname">Firstname *</label><br />
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              required
+              placeholder="John"
+              autocomplete="given-name"
+            />
+          </p>
+
+          <p>
+            <label for="lastname">Lastname *</label><br />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              required
+              placeholder="Doe"
+              autocomplete="family-name"
+            />
+          </p>
+
+          <p>
+            <label for="phone">Phonenumber *</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              placeholder="e.g., +1234567890"
+              autocomplete="tel"
+            />
+          </p>
+          <p>
+            <label for="password">Password *</label><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              placeholder="********"
+              autocomplete="new-password"
+            />
+          </p>
+          <p>
+            By clicking to create an account, I agree to
+            <a href="terms.html">Terms of Service</a> and acknowledge that I
+            have read the <a href="privacy.html">Privacy Policy</a>.
+          </p>
+        </fieldset>
+        <br />
+
+        <button type="submit">Create Account</button>
+        <p>OR</p>
+        <button type="button" id="google-signup">Login with Google</button>
+
+        <footer>
+          <address>
+            <p>5, Omoniyi Street, Lagos Nigeria</p>
+          </address>
+          <p>&copy; 2026 Ifabanwo Boluwatife Timilehin All rights reserved.</p>
+        </footer>
+      </form>
+    </main>
+  </body>
+</html>
